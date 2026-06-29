@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import About from './pages/About'
 import './App.css'
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
           <Route path="/proyectos" element={<Projects />} />
           <Route path="/contacto" element={<Contact />} />
         </Routes>
+        <About/>
       </main>
+      
     </div>
   )
 }
